@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import PropTypes from 'prop-types';
 
 import TimerButton from './TimerButton';
 import TimerForm from './TimerForm';
@@ -13,15 +12,11 @@ export default function ToggleableTimerForm({ isOpen }) {
   );
 }
 
-ToggleableTimerForm.propTypes = {
-  isOpen: PropTypes.bool
-};
-
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: 10
+    paddingVertical: 10,
   },
   buttonPadding: {
-    paddingHorizontal: 15
-  }
+    paddingHorizontal: 15,
+  },
 });

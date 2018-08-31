@@ -9,7 +9,7 @@ export default function EditableTimer({
   project,
   elapsed,
   isRunning,
-  editFormOpen
+  editFormOpen,
 }) {
   if (editFormOpen) {
     return <TimerForm id={id} title={title} project={project} />;
